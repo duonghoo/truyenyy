@@ -439,7 +439,7 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link rel="shortcut icon" type="image/x-icon" href="https://yystatic.codeprime.net/v2018/img/icon-v2018-32.png">
-    <link rel="stylesheet" href="css/yy.min.css"
+    <link rel="stylesheet" href="https://yystatic.codeprime.net/desktop/css/desktop-base.a24e9df0.css"
         id="desktopBaseCSS">
     <link rel="stylesheet" href="css/style.css">
 
@@ -471,9 +471,34 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        DJANGO_SEARCH_URL = '/tim-kiem/nang-cao/';
+        DJANGO_SEARCH_NOVELS_URL = '/web-api/novel/search/';
+        DJANGO_SEARCH_HITS_SAVE_URL = '/web-api/novel/search-hits/save/';
+        DJANGO_TOP_SEARCH_HITS_URL = '/web-api/novel/search-hits/top/';
+        DJANGO_RECENT_USER_SEARCH_HITS_URL = '/web-api/novel/search-hits/recent-user/';
 
+        DJANGO_DESKTOP_HOME_SLIDERS_LIST_URL = "/web-api/desktop-home/get-novel-sliders/";
+        DJANGO_DESKTOP_HOME_TOPNAV_INFO_URL = "/web-api/desktop-home/get-top-nav-info/";
+        DJANGO_DESKTOP_HOME_LAST_NOTIFICATIONS_URL = "/web-api/desktop-home/get-last-notifications/";
+        DJANGO_DESKTOP_HOME_LAST_MESSAGES_URL = "/web-api/desktop-home/get-last-messages/";
+        DJANGO_DESKTOP_HOME_MARK_READ_MESSAGES_URL = "/web-api/desktop-home/mark-read-messages/";
+        DJANGO_DESKTOP_HOME_MARK_READ_NOTIFICATIONS_URL = "/web-api/desktop-home/mark-read-notifications/";
+        DJANGO_DESKTOP_HOME_PANEL_BOOKMARKS_LIST_URL = "/web-api/desktop-home/get-bookmarks-panel-list/";
+        DJANGO_DESKTOP_HOME__GENRES_LIST_URL = "/web-api/desktop-home/get-genres-list/";
 
+        DJANGO_DESKTOP_HOME_LAST_UPDATE_NOVELS_URL = "/web-api/desktop-home/get-last-update-novels/";
+        DJANGO_DESKTOP_HOME_LAST_UPDATE_NOVELS_PAGE_URL = "/truyen-moi-cap-nhat/";
 
+        DJANGO_FEEDBACK_USER_INFO_URL = '/web-api/feedback/get-current-user/';
+        DJANGO_FEEDBACK_SUBMIT_CONTACT_URL = '/web-api/feedback/submit-contact/';
+        DJANGO_FEEDBACK_SUBMIT_ISSUE_URL = '/web-api/feedback/submit-issue/';
+        DJANGO_FEEDBACK_SUBMIT_REQUEST_NEW_NOVEL_URL = '/web-api/feedback/submit-request-new-novel/';
+
+        DJANGO_DESKTOP_HOME_USERBOX_INFO_URL = '/web-api/desktop-home/get-user-box-info/';
+        DJANGO_DESKTOP_USER_AVATAR_URL = '';
+        DJANGO_DESKTOP_USER_IS_AUTH = false;
+    </script>
     <meta property="og:image" content="https://yystatic.codeprime.net/img/ogimages/yy-1.jpg">
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -4200,7 +4225,7 @@
                                         style="opacity: 15; transition-duration: 300ms;"></div>
                                 </div>
                             </div>
-                            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets position-absolute" style="top:auto;"><span
+                            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
                                     class="swiper-pagination-bullet" tabindex="0" role="button"
                                     aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet"
                                     tabindex="0" role="button" aria-label="Go to slide 2"></span><span
@@ -4219,7 +4244,7 @@
                                     aria-label="Go to slide 10"></span></div>
                             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                         </div>
-                        <div class="mini-swiper position-absolute" style="top:50%">
+                        <div class="mini-swiper">
                             <div class="book-title"><a href="/truyen/chiec-o-mau-do/" target="_blank">Thanh Kiếm Của
                                     Quỷ</a></div>
                             <div class="book-author">Muội Nương</div>
